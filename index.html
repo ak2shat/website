@@ -29,19 +29,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="#Home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skill">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Work experience</a>
+            <a class="nav-link" href="#workex">Work experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Projects</a>
+            <a class="nav-link" href="#heado">Projects</a>
           </li>
         </ul>
       </div>
@@ -50,9 +50,14 @@
 
   <!-- home -->
 
-  <div class="container-fluid home ">
+  <div class="container-fluid home " id="Home">
     <div class="row text-center" id="homie">
-      <div class="col-8" style="margin-top: 200px; ">
+<div class="row">
+  <div class="col">
+      <img src="dp.jpg" style="max-width: 200px; max-height: 200px; display: none; border-radius: 50%;" class="dp" alt="">
+    </div>
+    </div>
+      <div class="col-8" id="self" style="margin-top: 200px; ">
         <h5 style="font-size: 25px;">Hello,</h5>
         <h1 id="name">I'm Akshat Jain</h1>
         <h4 style="font-size: 32px;">Web developer</h4>
@@ -66,7 +71,7 @@
 
   <!-- About me -->
 
-  <div class="container">
+  <div class="container" id="about">
     <h1 class="text-center my-5">About me</h1>
     <div class="row justify-content-evenly">
       <h2 class="text-center">Education</h2>
@@ -141,7 +146,7 @@
 
 
   <!-- skills? -->
-  <h1 class="text-center my-5">Skills</h1>
+  <h1 class="text-center my-5" id="skill">Skills</h1>
 
   <div class="container">
     <div class="row justify-content-evenly  text-center ">
@@ -164,7 +169,7 @@
 
   <!-- work-ex? -->
 
-  <h1 class="text-center my-5">Work experience</h1>
+  <h1 class="text-center my-5" id="workex">Work experience</h1>
   <div class="container">
     <div class="accordion" id="accordionExample">
       <div class="accordion-item">

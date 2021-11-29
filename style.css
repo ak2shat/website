@@ -103,15 +103,21 @@ a{
     
 }
 
-@media only screen and (max-width:390px){
+@media only screen and (max-width:900px){
     .home{
         background-image:none;
-       
+    }
+
+    .dp{
+        display: inline !important;
+        margin-top: 100px;
     }
 
     #homie{
         justify-content: space-evenly;
     }
-
+    #self{
+       margin-top: 20px !important;
+    }
 
 }

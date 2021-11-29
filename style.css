@@ -1,0 +1,67 @@
+/* body{
+    background-image: url('pic.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+.home{
+    background-image: url('pic.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-dark{
+    background-color: transparent !important;
+}
+a{
+    text-decoration: none;
+}
+
+.txt{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.txt-big{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.btns a{
+    color: white;
+}
+
+.headings{
+    font-size: px;
+}
+
+#but{
+    padding: 4px;
+    margin-top: 5px;
+}
+/* #skill_btn{
+   padding: 20px;
+   width: 100px;
+} */
+
+#foot{
+    background: rgb(142, 191, 255);
+}
+
+#links i{
+   font-size: 25px;
+   margin: 5px;
+}
+
+
+.blue{
+    background: rgb(0, 110, 255) !important;
+}
+
+#nvbars{
+    height: 0;
+}

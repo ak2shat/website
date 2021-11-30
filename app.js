@@ -7,8 +7,14 @@ let loader = document.getElementById('preloader');
 window.onload = function animate(){
 
     // await sleep(2000);
-    
-    loader.style.display = "none";
+    // setTimeout(function(){
+    //     loader.style.display = "none";
+    // },3000);
+    setTimeout(function()
+    { loader.style.display = "none";
+        }, 2000);
+   
+        loader.fadeOut("slow");
      
 }
 

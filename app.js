@@ -1,6 +1,18 @@
 let mynav = document.getElementById('nvbar');
 let nvlinks = document.getElementsByClassName('nav-link');
 let logo = document.getElementsByClassName('txt-big');
+let hell = document.getElementById('hell');
+let loader = document.getElementById('preloader');
+
+window.onload = function animate(){
+
+    // await sleep(2000);
+    
+    loader.style.display = "none";
+     
+}
+
+
 
 window.onscroll = function(){
     if(document.documentElement.scrollTop > 20){

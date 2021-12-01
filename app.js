@@ -3,22 +3,31 @@ let nvlinks = document.getElementsByClassName('nav-link');
 let logo = document.getElementsByClassName('txt-big');
 let hell = document.getElementById('hell');
 let loader = document.getElementById('preloader');
-
+let navi = document.getElementById('navigator');
 window.onload = function animate(){
 
     // await sleep(2000);
     // setTimeout(function(){
     //     loader.style.display = "none";
     // },3000);
+
+
+
     setTimeout(function()
-    { loader.style.display = "none";
+    {
+         loader.style.display = "none";
+
         }, 2000);
-   
-        loader.fadeOut("slow");
-     
+    // loader.style.display = "none";
+        
 }
 
-
+// window.onscroll = function(){
+//     if(document.documentElement.scrollTop > 20){
+//         console.log("yes");
+//           navi.style.display = "none";
+//     }
+// }
 
 window.onscroll = function(){
     if(document.documentElement.scrollTop > 20){
@@ -29,6 +38,7 @@ window.onscroll = function(){
             nvlinks[i].classList.add('text-white');
         }
         logo[0].classList.add('text-white');
+        navi.style.display = "flex";
     }
     else{
         mynav.classList.remove('sticky-top');
@@ -38,6 +48,8 @@ window.onscroll = function(){
             nvlinks[i].classList.remove('text-white');
         }
         logo[0].classList.remove('text-white');
+        navi.style.display = "none";
+
     }
 
 }

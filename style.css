@@ -35,9 +35,9 @@ a{
     color: white;
 }
 
-.headings{
+/* .headings{
     font-size: px;
-}
+} */
 
 #but{
     padding: 4px;
@@ -91,11 +91,10 @@ a{
 
 #navigator{
     color:rgb(0, 110, 255);
-    font-size: 35px;
+    font-size: 40px;
     left: 10px;
     bottom: 10px;
     cursor: pointer;
-    
 }
 
 .blue{
@@ -125,7 +124,7 @@ a{
 
 #skill_btn{
     padding: 30px;
-    width: 300px;
+    width: 260px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -155,6 +154,17 @@ a{
 
 }
 
+.heading{
+      color: rgb(0, 47, 109) ;
+}
+
+
+@media only screen and (max-width: 399px){
+    #line-dot{
+        display: none;
+    }
+}
+
 #preloader{
     background: white;
     height: 100vh;
@@ -162,12 +172,13 @@ a{
     position: fixed;
     z-index: 100;
     font-size: 40px;
+   
 }
 #hell{
-   margin-top: 50vh;
-   font-weight: 500;
-  animation: animate 1s ;
-  animation-iteration-count: 3;
+   margin-top: 40vh;
+   font-weight: 670;
+  animation: animate 2s;
+  animation-iteration-count: 2;
 }
 
 
@@ -203,3 +214,12 @@ a{
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(0, 66, 153);
   }
+
+#me,#skil{
+
+    border: 5px solid rgb(0, 110, 255);
+    border-radius: 8px;
+}
+
+
+

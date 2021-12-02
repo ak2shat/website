@@ -11,6 +11,11 @@ window.onload = function animate(){
     //     loader.style.display = "none";
     // },3000);
 
+ setTimeout(function(){
+    hell.innerText = hell.innerText + " " + "World";
+
+ },1000);
+  
 
 
     setTimeout(function()
@@ -19,6 +24,9 @@ window.onload = function animate(){
 
         }, 2000);
     // loader.style.display = "none";
+    
+
+
         
 }
 
@@ -38,7 +46,7 @@ window.onscroll = function(){
             nvlinks[i].classList.add('text-white');
         }
         logo[0].classList.add('text-white');
-        navi.style.display = "flex";
+        
     }
     else{
         mynav.classList.remove('sticky-top');
@@ -48,8 +56,16 @@ window.onscroll = function(){
             nvlinks[i].classList.remove('text-white');
         }
         logo[0].classList.remove('text-white');
-        navi.style.display = "none";
+        // navi.style.display = "none";
 
     }
 
+    if(document.documentElement.scrollTop > 200){
+        navi.style.display = "flex";
+      }
+      else{
+        navi.style.display = "none";
+      }
+
 }
+

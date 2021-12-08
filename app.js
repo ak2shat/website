@@ -11,18 +11,46 @@ window.onload = function animate(){
     //     loader.style.display = "none";
     // },3000);
 
- setTimeout(function(){
-    hell.innerText = hell.innerText + " " + "World";
+//  setTimeout(function(){
+//     hell.innerText = hell.innerText + " " + "World";
 
- },1000);
+//  },1000);
   
+    setTimeout(()=>{
+        hell.innerText = hell.innerText + "e";
+    },100);
+    setTimeout(()=>{
+        hell.innerText = hell.innerText + "l";
+    },200);
+    setTimeout(()=>{
+        hell.innerText = hell.innerText + "l";
+    },300);
+    setTimeout(()=>{
+        hell.innerText = hell.innerText + "o";
+    },400);
+    
+    setTimeout(()=>{
+        hell.innerText = hell.innerText + " W";
+    },600);
+    setTimeout(()=>{
+        hell.innerText = hell.innerText + "o";
+    },700);
+    setTimeout(()=>{
+        hell.innerText = hell.innerText + "r";
+    },800);
+    setTimeout(()=>{
+        hell.innerText = hell.innerText + "l";
+    },900);
+    setTimeout(()=>{
+        hell.innerText = hell.innerText + "d!";
+    },1000);
 
 
     setTimeout(function()
     {
          loader.style.display = "none";
 
-        }, 2000);
+        }, 1700);
     // loader.style.display = "none";
     
 

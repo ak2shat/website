@@ -6,6 +6,8 @@
     background-size: cover;
     background-attachment: fixed;
 } */
+
+
 .home{
     background-image: url('pic.jpg');
     height: 100vh;
@@ -177,7 +179,7 @@ a{
 #hell{
    margin-top: 40vh;
    font-weight: 670;
-  animation: animate 2s;
+  animation: animate 4s;
   animation-iteration-count: 2;
 }
 

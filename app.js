@@ -4,6 +4,10 @@ let logo = document.getElementsByClassName('txt-big');
 let hell = document.getElementById('hell');
 let loader = document.getElementById('preloader');
 let navi = document.getElementById('navigator');
+let year = document.getElementById('year');
+
+year.innerText = new Date().getFullYear();
+
 window.onload = function animate(){
 
     // await sleep(2000);
@@ -31,19 +35,19 @@ window.onload = function animate(){
     
     setTimeout(()=>{
         hell.innerText = hell.innerText + " W";
-    },600);
+    },500);
     setTimeout(()=>{
         hell.innerText = hell.innerText + "o";
-    },700);
+    },600);
     setTimeout(()=>{
         hell.innerText = hell.innerText + "r";
-    },800);
+    },650);
     setTimeout(()=>{
         hell.innerText = hell.innerText + "l";
-    },900);
+    },700);
     setTimeout(()=>{
         hell.innerText = hell.innerText + "d!";
-    },1000);
+    },750);
 
 
     setTimeout(function()
